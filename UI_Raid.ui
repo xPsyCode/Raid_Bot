@@ -136,9 +136,9 @@ QPushButton:pressed {
      </widget>
     </item>
     <item>
-     <widget class="QStackedWidget" name="stackedWidget">
+     <widget class="QStackedWidget" name="main_Stack">
       <property name="currentIndex">
-       <number>1</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="start_Page">
        <layout class="QHBoxLayout" name="horizontalLayout_6">
@@ -330,23 +330,48 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_12">
-                    <property name="spacing">
-                     <number>0</number>
-                    </property>
-                    <property name="leftMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="topMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="rightMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
-                    </property>
-                    <item>
-                     <widget class="QFrame" name="frame_26">
+                    <item alignment="Qt::AlignLeft">
+                     <widget class="QFrame" name="frame_34">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_22">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>45</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="label_35">
+                         <property name="frameShadow">
+                          <enum>QFrame::Plain</enum>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>Gui_Images/star.png</pixmap>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignLeft">
+                     <widget class="QFrame" name="frame_33">
                       <property name="frameShape">
                        <enum>QFrame::StyledPanel</enum>
                       </property>
@@ -370,7 +395,20 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                         <number>0</number>
                        </property>
                        <item>
-                        <widget class="QLabel" name="label_9">
+                        <widget class="QLabel" name="label_31">
+                         <property name="frameShadow">
+                          <enum>QFrame::Plain</enum>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>Gui_Images/star.png</pixmap>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_32">
                          <property name="frameShadow">
                           <enum>QFrame::Plain</enum>
                          </property>
@@ -385,7 +423,7 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                       </layout>
                      </widget>
                     </item>
-                    <item>
+                    <item alignment="Qt::AlignLeft">
                      <widget class="QFrame" name="frame_29">
                       <property name="frameShape">
                        <enum>QFrame::StyledPanel</enum>
@@ -410,7 +448,7 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                         <number>0</number>
                        </property>
                        <item>
-                        <widget class="QLabel" name="label_11">
+                        <widget class="QLabel" name="label_27">
                          <property name="frameShadow">
                           <enum>QFrame::Plain</enum>
                          </property>
@@ -423,7 +461,20 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                         </widget>
                        </item>
                        <item>
-                        <widget class="QLabel" name="label_10">
+                        <widget class="QLabel" name="label_28">
+                         <property name="frameShadow">
+                          <enum>QFrame::Plain</enum>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>Gui_Images/star.png</pixmap>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_29">
                          <property name="frameShadow">
                           <enum>QFrame::Plain</enum>
                          </property>
@@ -438,15 +489,15 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                       </layout>
                      </widget>
                     </item>
-                    <item>
-                     <widget class="QFrame" name="frame_28">
+                    <item alignment="Qt::AlignLeft">
+                     <widget class="QFrame" name="frame_35">
                       <property name="frameShape">
                        <enum>QFrame::StyledPanel</enum>
                       </property>
                       <property name="frameShadow">
                        <enum>QFrame::Raised</enum>
                       </property>
-                      <layout class="QHBoxLayout" name="horizontalLayout_17">
+                      <layout class="QHBoxLayout" name="horizontalLayout_24">
                        <property name="spacing">
                         <number>0</number>
                        </property>
@@ -463,7 +514,7 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                         <number>0</number>
                        </property>
                        <item>
-                        <widget class="QLabel" name="label_12">
+                        <widget class="QLabel" name="label_43">
                          <property name="frameShadow">
                           <enum>QFrame::Plain</enum>
                          </property>
@@ -476,7 +527,7 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                         </widget>
                        </item>
                        <item>
-                        <widget class="QLabel" name="label_13">
+                        <widget class="QLabel" name="label_44">
                          <property name="frameShadow">
                           <enum>QFrame::Plain</enum>
                          </property>
@@ -489,47 +540,7 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                         </widget>
                        </item>
                        <item>
-                        <widget class="QLabel" name="label_14">
-                         <property name="frameShadow">
-                          <enum>QFrame::Plain</enum>
-                         </property>
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="pixmap">
-                          <pixmap>Gui_Images/star.png</pixmap>
-                         </property>
-                        </widget>
-                       </item>
-                      </layout>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QFrame" name="frame_27">
-                      <property name="frameShape">
-                       <enum>QFrame::StyledPanel</enum>
-                      </property>
-                      <property name="frameShadow">
-                       <enum>QFrame::Raised</enum>
-                      </property>
-                      <layout class="QHBoxLayout" name="horizontalLayout_16">
-                       <property name="spacing">
-                        <number>0</number>
-                       </property>
-                       <property name="leftMargin">
-                        <number>45</number>
-                       </property>
-                       <property name="topMargin">
-                        <number>0</number>
-                       </property>
-                       <property name="rightMargin">
-                        <number>0</number>
-                       </property>
-                       <property name="bottomMargin">
-                        <number>0</number>
-                       </property>
-                       <item>
-                        <widget class="QLabel" name="label_15">
+                        <widget class="QLabel" name="label_45">
                          <property name="frameShadow">
                           <enum>QFrame::Plain</enum>
                          </property>
@@ -542,33 +553,7 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                         </widget>
                        </item>
                        <item>
-                        <widget class="QLabel" name="label_16">
-                         <property name="frameShadow">
-                          <enum>QFrame::Plain</enum>
-                         </property>
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="pixmap">
-                          <pixmap>Gui_Images/star.png</pixmap>
-                         </property>
-                        </widget>
-                       </item>
-                       <item>
-                        <widget class="QLabel" name="label_17">
-                         <property name="frameShadow">
-                          <enum>QFrame::Plain</enum>
-                         </property>
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="pixmap">
-                          <pixmap>Gui_Images/star.png</pixmap>
-                         </property>
-                        </widget>
-                       </item>
-                       <item>
-                        <widget class="QLabel" name="label_18">
+                        <widget class="QLabel" name="label_46">
                          <property name="frameShadow">
                           <enum>QFrame::Plain</enum>
                          </property>
@@ -655,6 +640,131 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                 <property name="frameShadow">
                  <enum>QFrame::Raised</enum>
                 </property>
+                <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="frame_30">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_20">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>10</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>100</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_19">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Comic Sans MS&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Bot Status:</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_20">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(60, 255, 0);
+font: 14pt &quot;Comic Sans MS&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Running</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_31">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_21">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>10</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>75</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_21">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Comic Sans MS&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Round:</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_22">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Comic Sans MS&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>48</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_32">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
               </item>
              </layout>
@@ -765,6 +875,12 @@ QPushButton:pressed {
         </property>
         <item>
          <widget class="QFrame" name="frame_15">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>78</height>
+           </size>
+          </property>
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -842,18 +958,32 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
              <property name="frameShadow">
               <enum>QFrame::Raised</enum>
              </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_14">
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">QPushButton{
+             <layout class="QHBoxLayout" name="horizontalLayout_10">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item alignment="Qt::AlignTop">
+               <widget class="QFrame" name="frame_14">
+                <property name="minimumSize">
+                 <size>
+                  <width>100</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
     color: #333;
     border: 2px solid #555;
     border-style: outset;
@@ -879,47 +1009,224 @@ QPushButton:pressed {
         );
     }
 </string>
-             </property>
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QHBoxLayout" name="horizontalLayout_10">
-              <property name="spacing">
-               <number>220</number>
-              </property>
-              <property name="leftMargin">
-               <number>100</number>
-              </property>
-              <property name="topMargin">
-               <number>0</number>
-              </property>
-              <property name="rightMargin">
-               <number>100</number>
-              </property>
-              <property name="bottomMargin">
-               <number>0</number>
-              </property>
-              <item>
-               <widget class="QPushButton" name="info_Btn_4">
-                <property name="styleSheet">
-                 <string notr="true"/>
                 </property>
-                <property name="text">
-                 <string>Start</string>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
                 </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_15">
+                 <property name="spacing">
+                  <number>50</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>5</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>15</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>5</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="level_Btn_2">
+                   <property name="styleSheet">
+                    <string notr="true"/>
+                   </property>
+                   <property name="text">
+                    <string>Dragon</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="level_Btn_3">
+                   <property name="styleSheet">
+                    <string notr="true"/>
+                   </property>
+                   <property name="text">
+                    <string>Golem</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="level_Btn_4">
+                   <property name="styleSheet">
+                    <string notr="true"/>
+                   </property>
+                   <property name="text">
+                    <string>Fireknight</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="info_Btn_5">
-                <property name="styleSheet">
-                 <string notr="true"/>
-                </property>
-                <property name="text">
-                 <string>Stop</string>
-                </property>
+               <widget class="QStackedWidget" name="dungeon_Stack">
+                <widget class="QWidget" name="dragon_Page">
+                 <layout class="QHBoxLayout" name="horizontalLayout_16">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QFrame" name="frame_26">
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_16">
+                     <item>
+                      <widget class="QFrame" name="frame_28">
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_26">
+                        <property name="spacing">
+                         <number>0</number>
+                        </property>
+                        <property name="leftMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>0</number>
+                        </property>
+                        <item>
+                         <widget class="QFrame" name="frame_36">
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="frame_37">
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QFrame" name="frame_27">
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>80</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QPushButton{
+    color: #333;
+    border: 2px solid #555;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #888
+        );
+    padding: 5px;
+	font: 9pt &quot;Comic Sans MS&quot;;
+}
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_25">
+                        <property name="spacing">
+                         <number>250</number>
+                        </property>
+                        <property name="leftMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>10</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>60</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>0</number>
+                        </property>
+                        <item>
+                         <widget class="QPushButton" name="info_Btn_4">
+                          <property name="styleSheet">
+                           <string notr="true"/>
+                          </property>
+                          <property name="text">
+                           <string>Start</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="info_Btn_5">
+                          <property name="styleSheet">
+                           <string notr="true"/>
+                          </property>
+                          <property name="text">
+                           <string>Stop</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="page_2"/>
                </widget>
               </item>
              </layout>
@@ -1343,6 +1650,8 @@ color: rgb(255, 255, 255);</string>
    </layout>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="Gui_Images/test.qrc"/>
+ </resources>
  <connections/>
 </ui>
