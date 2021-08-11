@@ -10,4 +10,26 @@
     <file>une.png</file>
     <file>ver.png</file>
   </qresource>
+  <qresource prefix="knight">
+    <file>hei.png</file>
+    <file>imm.png</file>
+    <file>kritD.png</file>
+    <file>reg.png</file>
+    <file>sch.png</file>
+    <file>stu.png</file>
+    <file>wah.png</file>
+    <file>wild.png</file>
+    <file>wut.png</file>
+  </qresource>
+  <qresource prefix="golem">
+    <file>def.png</file>
+    <file>kritQ.png</file>
+    <file>leben.png</file>
+    <file>off.png</file>
+    <file>ref.png</file>
+    <file>verf.png</file>
+    <file>verg.png</file>
+    <file>verh.png</file>
+    <file>wid.png</file>
+  </qresource>
 </RCC>
