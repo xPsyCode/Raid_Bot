@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="dragon">
+    <file>bet.png</file>
+    <file>fro.png</file>
+    <file>gen.png</file>
+    <file>gew.png</file>
+    <file>gif.png</file>
+    <file>leb.png</file>
+    <file>rac.png</file>
+    <file>une.png</file>
+    <file>ver.png</file>
+  </qresource>
+</RCC>

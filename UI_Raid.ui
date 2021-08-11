@@ -1125,6 +1125,350 @@ QPushButton:pressed {
                           <property name="frameShadow">
                            <enum>QFrame::Raised</enum>
                           </property>
+                          <layout class="QVBoxLayout" name="verticalLayout_17">
+                           <item>
+                            <widget class="QFrame" name="frame_38">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QHBoxLayout" name="horizontalLayout_17">
+                              <item>
+                               <widget class="QPushButton" name="pushButton_2">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	image: url(:/dragon/gen.png);
+}
+QPushButton:checked{
+	border: 4px solid;
+	border-color: rgb(17, 255, 0);
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>true</bool>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	image: url(:/dragon/gew.png);
+}
+QPushButton:checked{
+	border: 4px solid;
+	border-color: rgb(17, 255, 0);
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>true</bool>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton_3">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	image: url(:/dragon/leb.png);
+}
+QPushButton:checked{
+	border: 4px solid;
+	border-color: rgb(17, 255, 0);
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>true</bool>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QFrame" name="frame_40">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QHBoxLayout" name="horizontalLayout_23">
+                              <item>
+                               <widget class="QPushButton" name="pushButton_4">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	image: url(:/dragon/ver.png);
+}
+QPushButton:checked{
+	border: 4px solid;
+	border-color: rgb(17, 255, 0);
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton_5">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	image: url(:/dragon/gif.png);
+}
+QPushButton:checked{
+	border: 4px solid;
+	border-color: rgb(17, 255, 0);
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton_6">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	image: url(:/dragon/fro.png);
+}
+QPushButton:checked{
+	border: 4px solid;
+	border-color: rgb(17, 255, 0);
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QFrame" name="frame_39">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QHBoxLayout" name="horizontalLayout_27">
+                              <item>
+                               <widget class="QPushButton" name="pushButton_7">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	image: url(:/dragon/bet.png);
+}
+QPushButton:checked{
+	border: 4px solid;
+	border-color: rgb(17, 255, 0);
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton_8">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	image: url(:/dragon/rac.png);
+}
+QPushButton:checked{
+	border: 4px solid;
+	border-color: rgb(17, 255, 0);
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton_9">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="maximumSize">
+                                 <size>
+                                  <width>40</width>
+                                  <height>40</height>
+                                 </size>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	image: url(:/dragon/une.png);
+}
+QPushButton:checked{
+	border: 4px solid;
+	border-color: rgb(17, 255, 0);
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                          </layout>
                          </widget>
                         </item>
                         <item>
@@ -1651,7 +1995,7 @@ color: rgb(255, 255, 255);</string>
   </widget>
  </widget>
  <resources>
-  <include location="Gui_Images/test.qrc"/>
+  <include location="Gui_Images/images.qrc"/>
  </resources>
  <connections/>
 </ui>
