@@ -694,11 +694,10 @@ font: 14pt &quot;Comic Sans MS&quot;;</string>
                     <item>
                      <widget class="QLabel" name="label_20">
                       <property name="styleSheet">
-                       <string notr="true">color: rgb(60, 255, 0);
-font: 14pt &quot;Comic Sans MS&quot;;</string>
+                       <string notr="true">font: 14pt &quot;Comic Sans MS&quot;;</string>
                       </property>
                       <property name="text">
-                       <string>Running</string>
+                       <string/>
                       </property>
                      </widget>
                     </item>
@@ -1033,7 +1032,7 @@ QPushButton:pressed {
                   <number>0</number>
                  </property>
                  <item>
-                  <widget class="QPushButton" name="level_Btn_2">
+                  <widget class="QPushButton" name="dragon_Btn">
                    <property name="styleSheet">
                     <string notr="true"/>
                    </property>
@@ -1043,7 +1042,7 @@ QPushButton:pressed {
                   </widget>
                  </item>
                  <item>
-                  <widget class="QPushButton" name="level_Btn_3">
+                  <widget class="QPushButton" name="golem_Btn">
                    <property name="styleSheet">
                     <string notr="true"/>
                    </property>
@@ -1053,7 +1052,7 @@ QPushButton:pressed {
                   </widget>
                  </item>
                  <item>
-                  <widget class="QPushButton" name="level_Btn_4">
+                  <widget class="QPushButton" name="knight_Btn">
                    <property name="styleSheet">
                     <string notr="true"/>
                    </property>
@@ -1503,11 +1502,10 @@ font: 14pt &quot;Comic Sans MS&quot;;</string>
                               <item>
                                <widget class="QLabel" name="label_23">
                                 <property name="styleSheet">
-                                 <string notr="true">color: rgb(60, 255, 0);
-font: 14pt &quot;Comic Sans MS&quot;;</string>
+                                 <string notr="true">font: 14pt &quot;Comic Sans MS&quot;;</string>
                                 </property>
                                 <property name="text">
-                                 <string>Running</string>
+                                 <string/>
                                 </property>
                                </widget>
                               </item>
@@ -2161,11 +2159,10 @@ font: 14pt &quot;Comic Sans MS&quot;;</string>
                               <item>
                                <widget class="QLabel" name="label_33">
                                 <property name="styleSheet">
-                                 <string notr="true">color: rgb(60, 255, 0);
-font: 14pt &quot;Comic Sans MS&quot;;</string>
+                                 <string notr="true">font: 14pt &quot;Comic Sans MS&quot;;</string>
                                 </property>
                                 <property name="text">
-                                 <string>Running</string>
+                                 <string/>
                                 </property>
                                </widget>
                               </item>
@@ -2380,7 +2377,7 @@ QPushButton:pressed {
                   </item>
                  </layout>
                 </widget>
-                <widget class="QWidget" name="page">
+                <widget class="QWidget" name="knight_Page">
                  <layout class="QVBoxLayout" name="verticalLayout_26">
                   <property name="spacing">
                    <number>0</number>
@@ -2817,11 +2814,10 @@ font: 14pt &quot;Comic Sans MS&quot;;</string>
                               <item>
                                <widget class="QLabel" name="label_38">
                                 <property name="styleSheet">
-                                 <string notr="true">color: rgb(60, 255, 0);
-font: 14pt &quot;Comic Sans MS&quot;;</string>
+                                 <string notr="true">font: 14pt &quot;Comic Sans MS&quot;;</string>
                                 </property>
                                 <property name="text">
-                                 <string>Running</string>
+                                 <string/>
                                 </property>
                                </widget>
                               </item>
