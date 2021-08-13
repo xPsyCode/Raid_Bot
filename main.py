@@ -22,6 +22,7 @@ class MainWindow(QMainWindow):
         self.ui.golem_Btn.clicked.connect(lambda: self.ui.dungeon_Stack.setCurrentWidget(self.ui.golem_Page))
         self.ui.knight_Btn.clicked.connect(lambda: self.ui.dungeon_Stack.setCurrentWidget(self.ui.knight_Page))
 
+        self.ui.prank_Btn.clicked.connect(lambda: self.ui.prank_lbl.setText("Ihr seit auch so dumm, dass ihr mir vertraut!"))
         self.show()
 
 
