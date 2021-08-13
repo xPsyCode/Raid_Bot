@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'UI_RaidDvFppV.ui'
+## Form generated from reading UI file 'UI_RaidmwCQGV.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.1.2
 ##
@@ -300,26 +300,26 @@ class Ui_MainWindow(object):
         self.verticalLayout_13.setSpacing(35)
         self.verticalLayout_13.setObjectName(u"verticalLayout_13")
         self.verticalLayout_13.setContentsMargins(60, 0, 0, 0)
-        self.radioButton = QRadioButton(self.frame_25)
-        self.radioButton.setObjectName(u"radioButton")
-        self.radioButton.setChecked(True)
+        self.level1_Radio = QRadioButton(self.frame_25)
+        self.level1_Radio.setObjectName(u"level1_Radio")
+        self.level1_Radio.setChecked(True)
 
-        self.verticalLayout_13.addWidget(self.radioButton)
+        self.verticalLayout_13.addWidget(self.level1_Radio)
 
-        self.radioButton_2 = QRadioButton(self.frame_25)
-        self.radioButton_2.setObjectName(u"radioButton_2")
+        self.level2_Radio = QRadioButton(self.frame_25)
+        self.level2_Radio.setObjectName(u"level2_Radio")
 
-        self.verticalLayout_13.addWidget(self.radioButton_2)
+        self.verticalLayout_13.addWidget(self.level2_Radio)
 
-        self.radioButton_3 = QRadioButton(self.frame_25)
-        self.radioButton_3.setObjectName(u"radioButton_3")
+        self.level3_Radio = QRadioButton(self.frame_25)
+        self.level3_Radio.setObjectName(u"level3_Radio")
 
-        self.verticalLayout_13.addWidget(self.radioButton_3)
+        self.verticalLayout_13.addWidget(self.level3_Radio)
 
-        self.radioButton_4 = QRadioButton(self.frame_25)
-        self.radioButton_4.setObjectName(u"radioButton_4")
+        self.level4_Radio = QRadioButton(self.frame_25)
+        self.level4_Radio.setObjectName(u"level4_Radio")
 
-        self.verticalLayout_13.addWidget(self.radioButton_4)
+        self.verticalLayout_13.addWidget(self.level4_Radio)
 
 
         self.horizontalLayout_14.addWidget(self.frame_25)
@@ -350,11 +350,11 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_20.addWidget(self.label_19)
 
-        self.label_20 = QLabel(self.frame_30)
-        self.label_20.setObjectName(u"label_20")
-        self.label_20.setStyleSheet(u"font: 14pt \"Comic Sans MS\";")
+        self.status_level_lbl = QLabel(self.frame_30)
+        self.status_level_lbl.setObjectName(u"status_level_lbl")
+        self.status_level_lbl.setStyleSheet(u"font: 14pt \"Comic Sans MS\";")
 
-        self.horizontalLayout_20.addWidget(self.label_20)
+        self.horizontalLayout_20.addWidget(self.status_level_lbl)
 
 
         self.verticalLayout_14.addWidget(self.frame_30)
@@ -374,12 +374,12 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_21.addWidget(self.label_21)
 
-        self.label_22 = QLabel(self.frame_31)
-        self.label_22.setObjectName(u"label_22")
-        self.label_22.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+        self.counter_level_lbl = QLabel(self.frame_31)
+        self.counter_level_lbl.setObjectName(u"counter_level_lbl")
+        self.counter_level_lbl.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "font: 14pt \"Comic Sans MS\";")
 
-        self.horizontalLayout_21.addWidget(self.label_22)
+        self.horizontalLayout_21.addWidget(self.counter_level_lbl)
 
 
         self.verticalLayout_14.addWidget(self.frame_31)
@@ -432,17 +432,17 @@ class Ui_MainWindow(object):
         self.horizontalLayout_9.setSpacing(220)
         self.horizontalLayout_9.setObjectName(u"horizontalLayout_9")
         self.horizontalLayout_9.setContentsMargins(100, 0, 100, 0)
-        self.info_Btn_2 = QPushButton(self.frame_11)
-        self.info_Btn_2.setObjectName(u"info_Btn_2")
-        self.info_Btn_2.setStyleSheet(u"")
+        self.start_level = QPushButton(self.frame_11)
+        self.start_level.setObjectName(u"start_level")
+        self.start_level.setStyleSheet(u"")
 
-        self.horizontalLayout_9.addWidget(self.info_Btn_2)
+        self.horizontalLayout_9.addWidget(self.start_level)
 
-        self.info_Btn_3 = QPushButton(self.frame_11)
-        self.info_Btn_3.setObjectName(u"info_Btn_3")
-        self.info_Btn_3.setStyleSheet(u"")
+        self.stop_level = QPushButton(self.frame_11)
+        self.stop_level.setObjectName(u"stop_level")
+        self.stop_level.setStyleSheet(u"")
 
-        self.horizontalLayout_9.addWidget(self.info_Btn_3)
+        self.horizontalLayout_9.addWidget(self.stop_level)
 
 
         self.verticalLayout_4.addWidget(self.frame_11)
@@ -1909,11 +1909,11 @@ class Ui_MainWindow(object):
         self.horizontalLayout_53 = QHBoxLayout(self.frame_76)
         self.horizontalLayout_53.setObjectName(u"horizontalLayout_53")
         self.horizontalLayout_53.setContentsMargins(50, 9, 50, -1)
-        self.level_Btn_11 = QPushButton(self.frame_76)
-        self.level_Btn_11.setObjectName(u"level_Btn_11")
-        self.level_Btn_11.setStyleSheet(u"")
+        self.resize_Btn = QPushButton(self.frame_76)
+        self.resize_Btn.setObjectName(u"resize_Btn")
+        self.resize_Btn.setStyleSheet(u"")
 
-        self.horizontalLayout_53.addWidget(self.level_Btn_11)
+        self.horizontalLayout_53.addWidget(self.resize_Btn)
 
 
         self.verticalLayout_30.addWidget(self.frame_76)
@@ -2143,16 +2143,16 @@ class Ui_MainWindow(object):
         self.label_44.setText("")
         self.label_45.setText("")
         self.label_46.setText("")
-        self.radioButton.setText("")
-        self.radioButton_2.setText("")
-        self.radioButton_3.setText("")
-        self.radioButton_4.setText("")
+        self.level1_Radio.setText("")
+        self.level2_Radio.setText("")
+        self.level3_Radio.setText("")
+        self.level4_Radio.setText("")
         self.label_19.setText(QCoreApplication.translate("MainWindow", u"Bot Status:", None))
-        self.label_20.setText("")
+        self.status_level_lbl.setText("")
         self.label_21.setText(QCoreApplication.translate("MainWindow", u"Round:", None))
-        self.label_22.setText(QCoreApplication.translate("MainWindow", u"48", None))
-        self.info_Btn_2.setText(QCoreApplication.translate("MainWindow", u"Start", None))
-        self.info_Btn_3.setText(QCoreApplication.translate("MainWindow", u"Stop", None))
+        self.counter_level_lbl.setText("")
+        self.start_level.setText(QCoreApplication.translate("MainWindow", u"Start", None))
+        self.stop_level.setText(QCoreApplication.translate("MainWindow", u"Stop", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"Dungeon Bot", None))
         self.dragon_Btn.setText(QCoreApplication.translate("MainWindow", u"Dragon", None))
         self.golem_Btn.setText(QCoreApplication.translate("MainWindow", u"Golem", None))
@@ -2212,7 +2212,7 @@ class Ui_MainWindow(object):
         self.label_10.setText(QCoreApplication.translate("MainWindow", u"Auto Seller", None))
         self.level_Btn_10.setText(QCoreApplication.translate("MainWindow", u"Start", None))
         self.label_11.setText(QCoreApplication.translate("MainWindow", u"Resize to 1280 x 720", None))
-        self.level_Btn_11.setText(QCoreApplication.translate("MainWindow", u"Resize", None))
+        self.resize_Btn.setText(QCoreApplication.translate("MainWindow", u"Resize", None))
         self.label_8.setText(QCoreApplication.translate("MainWindow", u"Calculator", None))
         self.label_12.setText(QCoreApplication.translate("MainWindow", u"Coming Soon", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Info", None))

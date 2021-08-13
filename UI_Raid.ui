@@ -596,7 +596,7 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                      <number>0</number>
                     </property>
                     <item>
-                     <widget class="QRadioButton" name="radioButton">
+                     <widget class="QRadioButton" name="level1_Radio">
                       <property name="text">
                        <string/>
                       </property>
@@ -606,21 +606,21 @@ font: 28pt &quot;Comic Sans MS&quot;;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QRadioButton" name="radioButton_2">
+                     <widget class="QRadioButton" name="level2_Radio">
                       <property name="text">
                        <string/>
                       </property>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QRadioButton" name="radioButton_3">
+                     <widget class="QRadioButton" name="level3_Radio">
                       <property name="text">
                        <string/>
                       </property>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QRadioButton" name="radioButton_4">
+                     <widget class="QRadioButton" name="level4_Radio">
                       <property name="text">
                        <string/>
                       </property>
@@ -692,7 +692,7 @@ font: 14pt &quot;Comic Sans MS&quot;;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLabel" name="label_20">
+                     <widget class="QLabel" name="status_level_lbl">
                       <property name="styleSheet">
                        <string notr="true">font: 14pt &quot;Comic Sans MS&quot;;</string>
                       </property>
@@ -740,13 +740,13 @@ font: 14pt &quot;Comic Sans MS&quot;;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLabel" name="label_22">
+                     <widget class="QLabel" name="counter_level_lbl">
                       <property name="styleSheet">
                        <string notr="true">color: rgb(255, 255, 255);
 font: 14pt &quot;Comic Sans MS&quot;;</string>
                       </property>
                       <property name="text">
-                       <string>48</string>
+                       <string/>
                       </property>
                      </widget>
                     </item>
@@ -828,7 +828,7 @@ QPushButton:pressed {
                <number>0</number>
               </property>
               <item>
-               <widget class="QPushButton" name="info_Btn_2">
+               <widget class="QPushButton" name="start_level">
                 <property name="styleSheet">
                  <string notr="true"/>
                 </property>
@@ -838,7 +838,7 @@ QPushButton:pressed {
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="info_Btn_3">
+               <widget class="QPushButton" name="stop_level">
                 <property name="styleSheet">
                  <string notr="true"/>
                 </property>
@@ -3437,7 +3437,7 @@ QPushButton:pressed {
                         <number>50</number>
                        </property>
                        <item>
-                        <widget class="QPushButton" name="level_Btn_11">
+                        <widget class="QPushButton" name="resize_Btn">
                          <property name="styleSheet">
                           <string notr="true"/>
                          </property>
