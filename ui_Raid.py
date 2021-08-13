@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'UI_RaidmwCQGV.ui'
+## Form generated from reading UI file 'UI_RaidlCAFGR.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.1.2
 ##
@@ -186,7 +186,7 @@ class Ui_MainWindow(object):
         self.label_35 = QLabel(self.frame_34)
         self.label_35.setObjectName(u"label_35")
         self.label_35.setFrameShadow(QFrame.Plain)
-        self.label_35.setPixmap(QPixmap(u"Gui_Images/star.png"))
+        self.label_35.setPixmap(QPixmap(u":/star/star.png"))
 
         self.horizontalLayout_22.addWidget(self.label_35)
 
@@ -204,14 +204,14 @@ class Ui_MainWindow(object):
         self.label_31 = QLabel(self.frame_33)
         self.label_31.setObjectName(u"label_31")
         self.label_31.setFrameShadow(QFrame.Plain)
-        self.label_31.setPixmap(QPixmap(u"Gui_Images/star.png"))
+        self.label_31.setPixmap(QPixmap(u":/star/star.png"))
 
         self.horizontalLayout_19.addWidget(self.label_31)
 
         self.label_32 = QLabel(self.frame_33)
         self.label_32.setObjectName(u"label_32")
         self.label_32.setFrameShadow(QFrame.Plain)
-        self.label_32.setPixmap(QPixmap(u"Gui_Images/star.png"))
+        self.label_32.setPixmap(QPixmap(u":/star/star.png"))
 
         self.horizontalLayout_19.addWidget(self.label_32)
 
@@ -229,21 +229,21 @@ class Ui_MainWindow(object):
         self.label_27 = QLabel(self.frame_29)
         self.label_27.setObjectName(u"label_27")
         self.label_27.setFrameShadow(QFrame.Plain)
-        self.label_27.setPixmap(QPixmap(u"Gui_Images/star.png"))
+        self.label_27.setPixmap(QPixmap(u":/star/star.png"))
 
         self.horizontalLayout_18.addWidget(self.label_27)
 
         self.label_28 = QLabel(self.frame_29)
         self.label_28.setObjectName(u"label_28")
         self.label_28.setFrameShadow(QFrame.Plain)
-        self.label_28.setPixmap(QPixmap(u"Gui_Images/star.png"))
+        self.label_28.setPixmap(QPixmap(u":/star/star.png"))
 
         self.horizontalLayout_18.addWidget(self.label_28)
 
         self.label_29 = QLabel(self.frame_29)
         self.label_29.setObjectName(u"label_29")
         self.label_29.setFrameShadow(QFrame.Plain)
-        self.label_29.setPixmap(QPixmap(u"Gui_Images/star.png"))
+        self.label_29.setPixmap(QPixmap(u":/star/star.png"))
 
         self.horizontalLayout_18.addWidget(self.label_29)
 
@@ -261,28 +261,28 @@ class Ui_MainWindow(object):
         self.label_43 = QLabel(self.frame_35)
         self.label_43.setObjectName(u"label_43")
         self.label_43.setFrameShadow(QFrame.Plain)
-        self.label_43.setPixmap(QPixmap(u"Gui_Images/star.png"))
+        self.label_43.setPixmap(QPixmap(u":/star/star.png"))
 
         self.horizontalLayout_24.addWidget(self.label_43)
 
         self.label_44 = QLabel(self.frame_35)
         self.label_44.setObjectName(u"label_44")
         self.label_44.setFrameShadow(QFrame.Plain)
-        self.label_44.setPixmap(QPixmap(u"Gui_Images/star.png"))
+        self.label_44.setPixmap(QPixmap(u":/star/star.png"))
 
         self.horizontalLayout_24.addWidget(self.label_44)
 
         self.label_45 = QLabel(self.frame_35)
         self.label_45.setObjectName(u"label_45")
         self.label_45.setFrameShadow(QFrame.Plain)
-        self.label_45.setPixmap(QPixmap(u"Gui_Images/star.png"))
+        self.label_45.setPixmap(QPixmap(u":/star/star.png"))
 
         self.horizontalLayout_24.addWidget(self.label_45)
 
         self.label_46 = QLabel(self.frame_35)
         self.label_46.setObjectName(u"label_46")
         self.label_46.setFrameShadow(QFrame.Plain)
-        self.label_46.setPixmap(QPixmap(u"Gui_Images/star.png"))
+        self.label_46.setPixmap(QPixmap(u":/star/star.png"))
 
         self.horizontalLayout_24.addWidget(self.label_46)
 
