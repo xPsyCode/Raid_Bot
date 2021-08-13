@@ -42,6 +42,8 @@ class Level_Function():
         counterlbl.setText(str(0))
         statuslbl.setStyleSheet(style[0:27]+"color: rgb(221, 0, 0);")
         statuslbl.setText("Bot isn't running")
+        self.finish = True
+
     def set_finish(self,fin):
         self.finish = fin
 
