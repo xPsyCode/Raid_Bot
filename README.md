@@ -1,1 +1,31 @@
-# Raid_Bot
+# Raid: Shadow Legends Bot
+
+A simple Raid: Shadow Legends Bot, which support you in some bored action like leveling and farming.
+
+## How to install
+
+Take the "Executable" directory -> put "Template_Images" directory into it -> start the exe and everything is done.
+
+## How to use
+### Level
+Simple level function with autosell
+
+* Select an rank you should level up to max level
+* Click start and the bot runs
+
+Notes: To save energy, the bot levels the champs up to one befor max level. E.g. For a two star champ, the bot will stop at level 19.
+
+### Dungeon
+Farming bot for Dragon, Ice Golem and Fireknight
+
+* Select artefacts you should need
+* Select how long you will run the dungeon (Inf button will run as long as possible)
+* Click start and the bot will run and autosell all artefacts you shouldn't need
+
+Notes: Not work yet
+
+### Other Stuff
+Some helpful stuff like a simple autoclicker, auto seller and resize the window
+* Autoclicker can be starts -> Press Start button | can be stop -> Press Stop button
+* Auto seller: Click in Raid on the sell button -> take the artefacts you will sell on the bottom edge and press the start button
+* Resize button: Needful for resizing the window, because the window should be 1280 x 720, otherwise the bot won't work
