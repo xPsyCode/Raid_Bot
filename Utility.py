@@ -31,4 +31,4 @@ class Utility:
         if max_val > 0.9:
             time.sleep(1)
             pyautogui.click(win.get_screen_position((max_loc[0]+20,max_loc[1]+20)))
-        time.sleep(2)
+        time.sleep(1)

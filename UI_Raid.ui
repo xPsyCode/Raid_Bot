@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Raid Bot</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 0, 0);</string>
@@ -1058,6 +1058,13 @@ QPushButton:pressed {
                    </property>
                    <property name="text">
                     <string>Fireknight</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="minotaurus_Btn">
+                   <property name="text">
+                    <string>Minotaurus</string>
                    </property>
                   </widget>
                  </item>
@@ -3032,6 +3039,328 @@ QPushButton:pressed {
                   </item>
                  </layout>
                 </widget>
+                <widget class="QWidget" name="minotaurus_Page">
+                 <layout class="QHBoxLayout" name="horizontalLayout_55">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QFrame" name="frame_77">
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_31">
+                     <property name="spacing">
+                      <number>6</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>9</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>9</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>9</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>9</number>
+                     </property>
+                     <item>
+                      <widget class="QFrame" name="frame_79">
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_57">
+                        <item>
+                         <widget class="QFrame" name="frame_80">
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QVBoxLayout" name="verticalLayout_32">
+                           <item>
+                            <widget class="QFrame" name="frame_82">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QHBoxLayout" name="horizontalLayout_58">
+                              <item>
+                               <widget class="QLabel" name="label_9">
+                                <property name="styleSheet">
+                                 <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Comic Sans MS&quot;;</string>
+                                </property>
+                                <property name="text">
+                                 <string>Bot Status:</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QLabel" name="min_status_lbl">
+                                <property name="styleSheet">
+                                 <string notr="true">font: 14pt &quot;Comic Sans MS&quot;;</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QFrame" name="frame_83">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QHBoxLayout" name="horizontalLayout_59">
+                              <item>
+                               <widget class="QLabel" name="label_14">
+                                <property name="styleSheet">
+                                 <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Comic Sans MS&quot;;</string>
+                                </property>
+                                <property name="text">
+                                 <string>Refill left:</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QLabel" name="min_refill_lbl">
+                                <property name="styleSheet">
+                                 <string notr="true">font: 14pt &quot;Comic Sans MS&quot;;
+color: rgb(255, 255, 255);</string>
+                                </property>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="frame_81">
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QVBoxLayout" name="verticalLayout_33">
+                           <item>
+                            <widget class="QFrame" name="frame_84">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_34">
+                              <property name="leftMargin">
+                               <number>80</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>80</number>
+                              </property>
+                              <property name="bottomMargin">
+                               <number>9</number>
+                              </property>
+                              <item>
+                               <widget class="QPushButton" name="min_refill_Btn">
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+    color: #333;
+    border: 2px solid #555;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #888
+        );
+    padding: 5px;
+	font: 9pt &quot;Comic Sans MS&quot;;
+}
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+QPushButton:checked{
+	border: 4px solid;
+	border-color: rgb(26, 255, 0);
+}
+</string>
+                                </property>
+                                <property name="text">
+                                 <string>Refill</string>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QFrame" name="frame_85">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_35">
+                              <property name="leftMargin">
+                               <number>100</number>
+                              </property>
+                              <property name="rightMargin">
+                               <number>110</number>
+                              </property>
+                              <item>
+                               <widget class="QSpinBox" name="min_refill_Spin">
+                                <property name="styleSheet">
+                                 <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Comic Sans MS&quot;;</string>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QFrame" name="frame_78">
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>80</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QPushButton{
+    color: #333;
+    border: 2px solid #555;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #888
+        );
+    padding: 5px;
+	font: 9pt &quot;Comic Sans MS&quot;;
+}
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_56">
+                        <property name="spacing">
+                         <number>250</number>
+                        </property>
+                        <property name="leftMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>10</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>60</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>0</number>
+                        </property>
+                        <item>
+                         <widget class="QPushButton" name="start_min_Btn">
+                          <property name="styleSheet">
+                           <string notr="true"/>
+                          </property>
+                          <property name="text">
+                           <string>Start</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="stop_min_Btn">
+                          <property name="styleSheet">
+                           <string notr="true"/>
+                          </property>
+                          <property name="text">
+                           <string>Stop</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
                </widget>
               </item>
              </layout>
@@ -3709,7 +4038,7 @@ color: rgb(255, 255, 255);</string>
               <item>
                <widget class="QLabel" name="label_3">
                 <property name="text">
-                 <string>1.0</string>
+                 <string>1.1</string>
                 </property>
                </widget>
               </item>

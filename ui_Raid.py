@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'UI_RaidWDzdyx.ui'
+## Form generated from reading UI file 'UI_RaidsCCzCp.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.1.2
 ##
@@ -546,6 +546,11 @@ class Ui_MainWindow(object):
         self.knight_Btn.setStyleSheet(u"")
 
         self.verticalLayout_15.addWidget(self.knight_Btn)
+
+        self.minotaurus_Btn = QPushButton(self.frame_14)
+        self.minotaurus_Btn.setObjectName(u"minotaurus_Btn")
+
+        self.verticalLayout_15.addWidget(self.minotaurus_Btn)
 
 
         self.horizontalLayout_10.addWidget(self.frame_14, 0, Qt.AlignTop)
@@ -1654,6 +1659,210 @@ class Ui_MainWindow(object):
         self.verticalLayout_26.addWidget(self.frame_55)
 
         self.dungeon_Stack.addWidget(self.knight_Page)
+        self.minotaurus_Page = QWidget()
+        self.minotaurus_Page.setObjectName(u"minotaurus_Page")
+        self.horizontalLayout_55 = QHBoxLayout(self.minotaurus_Page)
+        self.horizontalLayout_55.setSpacing(0)
+        self.horizontalLayout_55.setObjectName(u"horizontalLayout_55")
+        self.horizontalLayout_55.setContentsMargins(0, 0, 0, 0)
+        self.frame_77 = QFrame(self.minotaurus_Page)
+        self.frame_77.setObjectName(u"frame_77")
+        self.frame_77.setFrameShape(QFrame.StyledPanel)
+        self.frame_77.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_31 = QVBoxLayout(self.frame_77)
+        self.verticalLayout_31.setSpacing(6)
+        self.verticalLayout_31.setObjectName(u"verticalLayout_31")
+        self.verticalLayout_31.setContentsMargins(9, 9, 9, 9)
+        self.frame_79 = QFrame(self.frame_77)
+        self.frame_79.setObjectName(u"frame_79")
+        self.frame_79.setFrameShape(QFrame.StyledPanel)
+        self.frame_79.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_57 = QHBoxLayout(self.frame_79)
+        self.horizontalLayout_57.setObjectName(u"horizontalLayout_57")
+        self.frame_80 = QFrame(self.frame_79)
+        self.frame_80.setObjectName(u"frame_80")
+        self.frame_80.setFrameShape(QFrame.StyledPanel)
+        self.frame_80.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_32 = QVBoxLayout(self.frame_80)
+        self.verticalLayout_32.setObjectName(u"verticalLayout_32")
+        self.frame_82 = QFrame(self.frame_80)
+        self.frame_82.setObjectName(u"frame_82")
+        self.frame_82.setFrameShape(QFrame.StyledPanel)
+        self.frame_82.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_58 = QHBoxLayout(self.frame_82)
+        self.horizontalLayout_58.setObjectName(u"horizontalLayout_58")
+        self.label_9 = QLabel(self.frame_82)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"font: 14pt \"Comic Sans MS\";")
+
+        self.horizontalLayout_58.addWidget(self.label_9)
+
+        self.min_status_lbl = QLabel(self.frame_82)
+        self.min_status_lbl.setObjectName(u"min_status_lbl")
+        self.min_status_lbl.setStyleSheet(u"font: 14pt \"Comic Sans MS\";")
+
+        self.horizontalLayout_58.addWidget(self.min_status_lbl)
+
+
+        self.verticalLayout_32.addWidget(self.frame_82)
+
+        self.frame_83 = QFrame(self.frame_80)
+        self.frame_83.setObjectName(u"frame_83")
+        self.frame_83.setFrameShape(QFrame.StyledPanel)
+        self.frame_83.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_59 = QHBoxLayout(self.frame_83)
+        self.horizontalLayout_59.setObjectName(u"horizontalLayout_59")
+        self.label_14 = QLabel(self.frame_83)
+        self.label_14.setObjectName(u"label_14")
+        self.label_14.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"font: 14pt \"Comic Sans MS\";")
+
+        self.horizontalLayout_59.addWidget(self.label_14)
+
+        self.min_refill_lbl = QLabel(self.frame_83)
+        self.min_refill_lbl.setObjectName(u"min_refill_lbl")
+        self.min_refill_lbl.setStyleSheet(u"font: 14pt \"Comic Sans MS\";\n"
+"color: rgb(255, 255, 255);")
+
+        self.horizontalLayout_59.addWidget(self.min_refill_lbl)
+
+
+        self.verticalLayout_32.addWidget(self.frame_83)
+
+
+        self.horizontalLayout_57.addWidget(self.frame_80)
+
+        self.frame_81 = QFrame(self.frame_79)
+        self.frame_81.setObjectName(u"frame_81")
+        self.frame_81.setFrameShape(QFrame.StyledPanel)
+        self.frame_81.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_33 = QVBoxLayout(self.frame_81)
+        self.verticalLayout_33.setObjectName(u"verticalLayout_33")
+        self.frame_84 = QFrame(self.frame_81)
+        self.frame_84.setObjectName(u"frame_84")
+        self.frame_84.setFrameShape(QFrame.StyledPanel)
+        self.frame_84.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_34 = QVBoxLayout(self.frame_84)
+        self.verticalLayout_34.setObjectName(u"verticalLayout_34")
+        self.verticalLayout_34.setContentsMargins(80, -1, 80, 9)
+        self.min_refill_Btn = QPushButton(self.frame_84)
+        self.min_refill_Btn.setObjectName(u"min_refill_Btn")
+        self.min_refill_Btn.setStyleSheet(u"QPushButton{\n"
+"    color: #333;\n"
+"    border: 2px solid #555;\n"
+"    border-style: outset;\n"
+"    background: qradialgradient(\n"
+"        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"        radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+"        );\n"
+"    padding: 5px;\n"
+"	font: 9pt \"Comic Sans MS\";\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background: qradialgradient(\n"
+"        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"        radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+"        );\n"
+"    }\n"
+"\n"
+"QPushButton:pressed {\n"
+"    border-style: inset;\n"
+"    background: qradialgradient(\n"
+"        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,\n"
+"        radius: 1.35, stop: 0 #fff, stop: 1 #ddd\n"
+"        );\n"
+"    }\n"
+"QPushButton:checked{\n"
+"	border: 4px solid;\n"
+"	border-color: rgb(26, 255, 0);\n"
+"}\n"
+"")
+        self.min_refill_Btn.setCheckable(True)
+        self.min_refill_Btn.setChecked(False)
+
+        self.verticalLayout_34.addWidget(self.min_refill_Btn)
+
+
+        self.verticalLayout_33.addWidget(self.frame_84)
+
+        self.frame_85 = QFrame(self.frame_81)
+        self.frame_85.setObjectName(u"frame_85")
+        self.frame_85.setFrameShape(QFrame.StyledPanel)
+        self.frame_85.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_35 = QVBoxLayout(self.frame_85)
+        self.verticalLayout_35.setObjectName(u"verticalLayout_35")
+        self.verticalLayout_35.setContentsMargins(100, -1, 110, -1)
+        self.min_refill_Spin = QSpinBox(self.frame_85)
+        self.min_refill_Spin.setObjectName(u"min_refill_Spin")
+        self.min_refill_Spin.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"font: 14pt \"Comic Sans MS\";")
+
+        self.verticalLayout_35.addWidget(self.min_refill_Spin)
+
+
+        self.verticalLayout_33.addWidget(self.frame_85)
+
+
+        self.horizontalLayout_57.addWidget(self.frame_81)
+
+
+        self.verticalLayout_31.addWidget(self.frame_79)
+
+        self.frame_78 = QFrame(self.frame_77)
+        self.frame_78.setObjectName(u"frame_78")
+        self.frame_78.setMaximumSize(QSize(16777215, 80))
+        self.frame_78.setStyleSheet(u"QPushButton{\n"
+"    color: #333;\n"
+"    border: 2px solid #555;\n"
+"    border-style: outset;\n"
+"    background: qradialgradient(\n"
+"        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"        radius: 1.35, stop: 0 #fff, stop: 1 #888\n"
+"        );\n"
+"    padding: 5px;\n"
+"	font: 9pt \"Comic Sans MS\";\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background: qradialgradient(\n"
+"        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,\n"
+"        radius: 1.35, stop: 0 #fff, stop: 1 #bbb\n"
+"        );\n"
+"    }\n"
+"\n"
+"QPushButton:pressed {\n"
+"    border-style: inset;\n"
+"    background: qradialgradient(\n"
+"        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,\n"
+"        radius: 1.35, stop: 0 #fff, stop: 1 #ddd\n"
+"        );\n"
+"    }\n"
+"")
+        self.frame_78.setFrameShape(QFrame.StyledPanel)
+        self.frame_78.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_56 = QHBoxLayout(self.frame_78)
+        self.horizontalLayout_56.setSpacing(250)
+        self.horizontalLayout_56.setObjectName(u"horizontalLayout_56")
+        self.horizontalLayout_56.setContentsMargins(0, 10, 60, 0)
+        self.start_min_Btn = QPushButton(self.frame_78)
+        self.start_min_Btn.setObjectName(u"start_min_Btn")
+        self.start_min_Btn.setStyleSheet(u"")
+
+        self.horizontalLayout_56.addWidget(self.start_min_Btn)
+
+        self.stop_min_Btn = QPushButton(self.frame_78)
+        self.stop_min_Btn.setObjectName(u"stop_min_Btn")
+        self.stop_min_Btn.setStyleSheet(u"")
+
+        self.horizontalLayout_56.addWidget(self.stop_min_Btn)
+
+
+        self.verticalLayout_31.addWidget(self.frame_78)
+
+
+        self.horizontalLayout_55.addWidget(self.frame_77)
+
+        self.dungeon_Stack.addWidget(self.minotaurus_Page)
 
         self.horizontalLayout_10.addWidget(self.dungeon_Stack)
 
@@ -2157,6 +2366,7 @@ class Ui_MainWindow(object):
         self.dragon_Btn.setText(QCoreApplication.translate("MainWindow", u"Dragon", None))
         self.golem_Btn.setText(QCoreApplication.translate("MainWindow", u"Golem", None))
         self.knight_Btn.setText(QCoreApplication.translate("MainWindow", u"Fireknight", None))
+        self.minotaurus_Btn.setText(QCoreApplication.translate("MainWindow", u"Minotaurus", None))
         self.pushButton_2.setText("")
         self.pushButton.setText("")
         self.pushButton_3.setText("")
@@ -2205,6 +2415,13 @@ class Ui_MainWindow(object):
         self.label_40.setText(QCoreApplication.translate("MainWindow", u"48", None))
         self.info_Btn_8.setText(QCoreApplication.translate("MainWindow", u"Start", None))
         self.info_Btn_9.setText(QCoreApplication.translate("MainWindow", u"Stop", None))
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"Bot Status:", None))
+        self.min_status_lbl.setText("")
+        self.label_14.setText(QCoreApplication.translate("MainWindow", u"Refill left:", None))
+        self.min_refill_lbl.setText("")
+        self.min_refill_Btn.setText(QCoreApplication.translate("MainWindow", u"Refill", None))
+        self.start_min_Btn.setText(QCoreApplication.translate("MainWindow", u"Start", None))
+        self.stop_min_Btn.setText(QCoreApplication.translate("MainWindow", u"Stop", None))
         self.label_7.setText(QCoreApplication.translate("MainWindow", u"Stuff", None))
         self.autoclicker_lbl.setText(QCoreApplication.translate("MainWindow", u"Simple Auto Clicker", None))
         self.start_autoclicker.setText(QCoreApplication.translate("MainWindow", u"Start", None))
@@ -2217,7 +2434,7 @@ class Ui_MainWindow(object):
         self.label_12.setText(QCoreApplication.translate("MainWindow", u"Coming Soon", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Info", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Version:", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"1.0", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"1.1", None))
         self.prank_Btn.setText(QCoreApplication.translate("MainWindow", u"Try Me", None))
         self.prank_lbl.setText("")
     # retranslateUi

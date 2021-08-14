@@ -11,6 +11,7 @@ import sys
 from ui_Raid import Ui_MainWindow
 from Gui_Functions.other_functions import Other_Functions
 from Gui_Functions.level_functions import Level_Function
+from Gui_Functions.dungeon_functions import Minotaurus
 import Gui_Images.images_rc
 
 class MainWindow(QMainWindow):
@@ -20,6 +21,7 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
         self.other = Other_Functions()
         self.level = Level_Function()
+        self.mino = Minotaurus()
        
         #PAGE CHANGE
         self.ui.level_Btn.clicked.connect(lambda: self.ui.main_Stack.setCurrentWidget(self.ui.level_Page))
@@ -30,6 +32,7 @@ class MainWindow(QMainWindow):
         self.ui.dragon_Btn.clicked.connect(lambda: self.ui.dungeon_Stack.setCurrentWidget(self.ui.dragon_Page))
         self.ui.golem_Btn.clicked.connect(lambda: self.ui.dungeon_Stack.setCurrentWidget(self.ui.golem_Page))
         self.ui.knight_Btn.clicked.connect(lambda: self.ui.dungeon_Stack.setCurrentWidget(self.ui.knight_Page))
+        self.ui.minotaurus_Btn.clicked.connect(lambda: self.ui.dungeon_Stack.setCurrentWidget(self.ui.minotaurus_Page))
 
         #Info page
         self.ui.prank_Btn.clicked.connect(lambda: self.ui.prank_lbl.setText("Ihr seit auch so dumm, dass ihr mir vertraut!"))
@@ -37,7 +40,10 @@ class MainWindow(QMainWindow):
         #Level page
         self.ui.start_level.clicked.connect(self.level_func)
         self.ui.stop_level.clicked.connect(lambda: self.level.set_finish(True))
-
+        
+        #Dungeon page
+        self.ui.start_min_Btn.clicked.connect(self.minotaurus)
+        self.ui.stop_min_Btn.clicked.connect(lambda: self.mino.set_finish(True))
         #Other stuff page
         self.ui.start_autoclicker.clicked.connect(self.auto_clicker)
         self.ui.stop_autoclicker.clicked.connect(lambda: self.other.set_finish(True))
@@ -67,6 +73,16 @@ class MainWindow(QMainWindow):
         else:
             self.other.set_finish(False)
             threading.Thread(target=self.other.autoclicker,args=(self.ui.autoclicker_lbl,),daemon=True).start()
+
+    def minotaurus(self):
+        if(not self.mino.is_finish()):
+            pass
+        else:
+            self.mino.set_finish(False)
+            counter = self.ui.min_refill_Spin.value() if self.ui.min_refill_Btn.isChecked() else 0
+            self.ui.min_refill_Spin.setValue(0)
+            threading.Thread(target=self.mino.run,args=(self.ui.min_status_lbl,self.ui.min_refill_lbl,counter,),daemon=True).start()
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainWindow()
