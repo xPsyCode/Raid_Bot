@@ -24,6 +24,11 @@ Farming bot for Dragon, Ice Golem and Fireknight
 
 Notes: Not work yet
 
+Farming scroll in Minotaurus
+
+* Select refill button -> Choose how much refill will buy for new energy
+* Click start button -> Bot will farm up to 950 red scroll for a champ - If energy is empty -> Bot will try every 3 minutes to start a round
+
 ### Other Stuff
 Some helpful stuff like a simple autoclicker, auto seller and resize the window
 * Autoclicker can be starts -> Press Start button | can be stop -> Press Stop button
