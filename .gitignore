@@ -1,6 +1,2 @@
-__pycache__/ui_Raid.cpython-39.pyc
-__pycache__/images_rc.cpython-39.pyc
-__pycache__/Utility.cpython-39.pyc
-__pycache__/main.cpython-39.pyc
-__pycache__/level_functions.cpython-39.pyc
-__pycache__/capture.cpython-39.pyc
+__pycache__/
+/Gui_Functions/__pycache__

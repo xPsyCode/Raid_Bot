@@ -8,7 +8,7 @@ import sys
 
 from numpy import uint
 from ui_Raid import Ui_MainWindow
-from level_functions import Level_Function
+from Gui_Functions.level_functions import Level_Function
 import images_rc
 
 class MainWindow(QMainWindow):
