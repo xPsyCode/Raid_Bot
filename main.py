@@ -2,12 +2,14 @@ from Utility import Utility
 from PySide6.QtCore import *  # type: ignore
 from PySide6.QtGui import *  # type: ignore
 from PySide6.QtWidgets import *  # type: ignore
+from numpy import uint
 import threading
 import sys
 
 
-from numpy import uint
+
 from ui_Raid import Ui_MainWindow
+from Gui_Functions.other_functions import Other_Functions
 from Gui_Functions.level_functions import Level_Function
 import Gui_Images.images_rc
 
@@ -16,6 +18,7 @@ class MainWindow(QMainWindow):
         QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
+        self.other = Other_Functions()
         self.level = Level_Function()
        
         #PAGE CHANGE
@@ -36,6 +39,9 @@ class MainWindow(QMainWindow):
         self.ui.stop_level.clicked.connect(lambda: self.level.set_finish(True))
 
         #Other stuff page
+        self.ui.start_autoclicker.clicked.connect(self.auto_clicker)
+        self.ui.stop_autoclicker.clicked.connect(lambda: self.other.set_finish(True))
+        self.ui.start_autoseller.clicked.connect(lambda: threading.Thread(target=self.other.autoseller,daemon=True).start())
         self.ui.resize_Btn.clicked.connect(lambda: Utility.resize_window())
 
         self.show()
@@ -55,6 +61,12 @@ class MainWindow(QMainWindow):
                 counter = 47
             threading.Thread(target=self.level.run,args=(self.ui.counter_level_lbl,self.ui.status_level_lbl,counter,),daemon=True).start()
             
+    def auto_clicker(self):
+        if(not self.other.is_finish()):
+            pass
+        else:
+            self.other.set_finish(False)
+            threading.Thread(target=self.other.autoclicker,args=(self.ui.autoclicker_lbl,),daemon=True).start()
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainWindow()

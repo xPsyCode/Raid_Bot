@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'UI_RaidlCAFGR.ui'
+## Form generated from reading UI file 'UI_RaidWDzdyx.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.1.2
 ##
@@ -12,7 +12,7 @@ from PySide6.QtCore import *  # type: ignore
 from PySide6.QtGui import *  # type: ignore
 from PySide6.QtWidgets import *  # type: ignore
 
-import images_rc
+import Gui_Images.images_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -1724,13 +1724,13 @@ class Ui_MainWindow(object):
         self.frame_71.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_48 = QHBoxLayout(self.frame_71)
         self.horizontalLayout_48.setObjectName(u"horizontalLayout_48")
-        self.label_9 = QLabel(self.frame_71)
-        self.label_9.setObjectName(u"label_9")
-        self.label_9.setStyleSheet(u"font: 16pt \"Comic Sans MS\";\n"
+        self.autoclicker_lbl = QLabel(self.frame_71)
+        self.autoclicker_lbl.setObjectName(u"autoclicker_lbl")
+        self.autoclicker_lbl.setStyleSheet(u"font: 16pt \"Comic Sans MS\";\n"
 "color: rgb(255, 255, 255);")
-        self.label_9.setAlignment(Qt.AlignCenter)
+        self.autoclicker_lbl.setAlignment(Qt.AlignCenter)
 
-        self.horizontalLayout_48.addWidget(self.label_9)
+        self.horizontalLayout_48.addWidget(self.autoclicker_lbl)
 
 
         self.verticalLayout_28.addWidget(self.frame_71)
@@ -1767,17 +1767,17 @@ class Ui_MainWindow(object):
         self.frame_72.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_49 = QHBoxLayout(self.frame_72)
         self.horizontalLayout_49.setObjectName(u"horizontalLayout_49")
-        self.level_Btn_9 = QPushButton(self.frame_72)
-        self.level_Btn_9.setObjectName(u"level_Btn_9")
-        self.level_Btn_9.setStyleSheet(u"")
+        self.start_autoclicker = QPushButton(self.frame_72)
+        self.start_autoclicker.setObjectName(u"start_autoclicker")
+        self.start_autoclicker.setStyleSheet(u"")
 
-        self.horizontalLayout_49.addWidget(self.level_Btn_9)
+        self.horizontalLayout_49.addWidget(self.start_autoclicker)
 
-        self.level_Btn_8 = QPushButton(self.frame_72)
-        self.level_Btn_8.setObjectName(u"level_Btn_8")
-        self.level_Btn_8.setStyleSheet(u"")
+        self.stop_autoclicker = QPushButton(self.frame_72)
+        self.stop_autoclicker.setObjectName(u"stop_autoclicker")
+        self.stop_autoclicker.setStyleSheet(u"")
 
-        self.horizontalLayout_49.addWidget(self.level_Btn_8)
+        self.horizontalLayout_49.addWidget(self.stop_autoclicker)
 
 
         self.verticalLayout_28.addWidget(self.frame_72)
@@ -1841,11 +1841,11 @@ class Ui_MainWindow(object):
         self.horizontalLayout_51 = QHBoxLayout(self.frame_74)
         self.horizontalLayout_51.setObjectName(u"horizontalLayout_51")
         self.horizontalLayout_51.setContentsMargins(50, -1, 50, -1)
-        self.level_Btn_10 = QPushButton(self.frame_74)
-        self.level_Btn_10.setObjectName(u"level_Btn_10")
-        self.level_Btn_10.setStyleSheet(u"")
+        self.start_autoseller = QPushButton(self.frame_74)
+        self.start_autoseller.setObjectName(u"start_autoseller")
+        self.start_autoseller.setStyleSheet(u"")
 
-        self.horizontalLayout_51.addWidget(self.level_Btn_10)
+        self.horizontalLayout_51.addWidget(self.start_autoseller)
 
 
         self.verticalLayout_29.addWidget(self.frame_74)
@@ -2206,11 +2206,11 @@ class Ui_MainWindow(object):
         self.info_Btn_8.setText(QCoreApplication.translate("MainWindow", u"Start", None))
         self.info_Btn_9.setText(QCoreApplication.translate("MainWindow", u"Stop", None))
         self.label_7.setText(QCoreApplication.translate("MainWindow", u"Stuff", None))
-        self.label_9.setText(QCoreApplication.translate("MainWindow", u"Simple Auto Clicker", None))
-        self.level_Btn_9.setText(QCoreApplication.translate("MainWindow", u"Start", None))
-        self.level_Btn_8.setText(QCoreApplication.translate("MainWindow", u"Stop", None))
+        self.autoclicker_lbl.setText(QCoreApplication.translate("MainWindow", u"Simple Auto Clicker", None))
+        self.start_autoclicker.setText(QCoreApplication.translate("MainWindow", u"Start", None))
+        self.stop_autoclicker.setText(QCoreApplication.translate("MainWindow", u"Stop", None))
         self.label_10.setText(QCoreApplication.translate("MainWindow", u"Auto Seller", None))
-        self.level_Btn_10.setText(QCoreApplication.translate("MainWindow", u"Start", None))
+        self.start_autoseller.setText(QCoreApplication.translate("MainWindow", u"Start", None))
         self.label_11.setText(QCoreApplication.translate("MainWindow", u"Resize to 1280 x 720", None))
         self.resize_Btn.setText(QCoreApplication.translate("MainWindow", u"Resize", None))
         self.label_8.setText(QCoreApplication.translate("MainWindow", u"Calculator", None))
