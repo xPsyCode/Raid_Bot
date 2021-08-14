@@ -9,7 +9,7 @@ import sys
 from numpy import uint
 from ui_Raid import Ui_MainWindow
 from Gui_Functions.level_functions import Level_Function
-import images_rc
+import Gui_Images.images_rc
 
 class MainWindow(QMainWindow):
     def __init__(self):
