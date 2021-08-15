@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'UI_RaidsCCzCp.ui'
+## Form generated from reading UI file 'UI_RaidloqGLa.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.1.2
 ##
@@ -12,7 +12,7 @@ from PySide6.QtCore import *  # type: ignore
 from PySide6.QtGui import *  # type: ignore
 from PySide6.QtWidgets import *  # type: ignore
 
-import Gui_Images.images_rc
+import images_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -2187,17 +2187,161 @@ class Ui_MainWindow(object):
         self.frame_21.setFrameShape(QFrame.StyledPanel)
         self.frame_21.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_54 = QHBoxLayout(self.frame_21)
+        self.horizontalLayout_54.setSpacing(0)
         self.horizontalLayout_54.setObjectName(u"horizontalLayout_54")
-        self.label_12 = QLabel(self.frame_21)
+        self.horizontalLayout_54.setContentsMargins(0, -1, 0, 0)
+        self.frame_87 = QFrame(self.frame_21)
+        self.frame_87.setObjectName(u"frame_87")
+        self.frame_87.setFrameShape(QFrame.StyledPanel)
+        self.frame_87.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_36 = QVBoxLayout(self.frame_87)
+        self.verticalLayout_36.setSpacing(0)
+        self.verticalLayout_36.setObjectName(u"verticalLayout_36")
+        self.verticalLayout_36.setContentsMargins(0, 0, 0, 0)
+        self.frame_89 = QFrame(self.frame_87)
+        self.frame_89.setObjectName(u"frame_89")
+        self.frame_89.setMaximumSize(QSize(16777215, 40))
+        self.frame_89.setFrameShape(QFrame.StyledPanel)
+        self.frame_89.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_37 = QVBoxLayout(self.frame_89)
+        self.verticalLayout_37.setObjectName(u"verticalLayout_37")
+        self.verticalLayout_37.setContentsMargins(9, -1, -1, -1)
+        self.label_12 = QLabel(self.frame_89)
         self.label_12.setObjectName(u"label_12")
-        self.label_12.setStyleSheet(u"font: 28pt \"Comic Sans MS\";\n"
-"color: rgb(255, 255, 255);")
+        self.label_12.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"font: 14pt \"Comic Sans MS\";")
         self.label_12.setAlignment(Qt.AlignCenter)
 
-        self.horizontalLayout_54.addWidget(self.label_12)
+        self.verticalLayout_37.addWidget(self.label_12)
+
+
+        self.verticalLayout_36.addWidget(self.frame_89)
+
+        self.frame_90 = QFrame(self.frame_87)
+        self.frame_90.setObjectName(u"frame_90")
+        self.frame_90.setFrameShape(QFrame.StyledPanel)
+        self.frame_90.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_38 = QVBoxLayout(self.frame_90)
+        self.verticalLayout_38.setSpacing(0)
+        self.verticalLayout_38.setObjectName(u"verticalLayout_38")
+        self.verticalLayout_38.setContentsMargins(0, 0, 0, 0)
+        self.frame_91 = QFrame(self.frame_90)
+        self.frame_91.setObjectName(u"frame_91")
+        self.frame_91.setFrameShape(QFrame.StyledPanel)
+        self.frame_91.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_60 = QHBoxLayout(self.frame_91)
+        self.horizontalLayout_60.setSpacing(0)
+        self.horizontalLayout_60.setObjectName(u"horizontalLayout_60")
+        self.horizontalLayout_60.setContentsMargins(20, 30, 0, 0)
+        self.frame_88 = QFrame(self.frame_91)
+        self.frame_88.setObjectName(u"frame_88")
+        self.frame_88.setFrameShape(QFrame.StyledPanel)
+        self.frame_88.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_39 = QVBoxLayout(self.frame_88)
+        self.verticalLayout_39.setObjectName(u"verticalLayout_39")
+        self.acc_lbl = QLabel(self.frame_88)
+        self.acc_lbl.setObjectName(u"acc_lbl")
+        self.acc_lbl.setAutoFillBackground(False)
+        self.acc_lbl.setStyleSheet(u"font: 10pt \"Comic Sans MS\";\n"
+"color: rgb(255, 255, 255);")
+
+        self.verticalLayout_39.addWidget(self.acc_lbl)
+
+        self.acc_input = QLineEdit(self.frame_88)
+        self.acc_input.setObjectName(u"acc_input")
+        self.acc_input.setMaximumSize(QSize(115, 16777215))
+        self.acc_input.setStyleSheet(u"font: 10pt \"Comic Sans MS\";\n"
+"color: rgb(255, 255, 255);")
+        self.acc_input.setMaxLength(3)
+
+        self.verticalLayout_39.addWidget(self.acc_input)
+
+
+        self.horizontalLayout_60.addWidget(self.frame_88, 0, Qt.AlignTop)
+
+        self.frame_93 = QFrame(self.frame_91)
+        self.frame_93.setObjectName(u"frame_93")
+        self.frame_93.setFrameShape(QFrame.StyledPanel)
+        self.frame_93.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_40 = QVBoxLayout(self.frame_93)
+        self.verticalLayout_40.setObjectName(u"verticalLayout_40")
+        self.horizontalSpacer_2 = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
+
+        self.verticalLayout_40.addItem(self.horizontalSpacer_2)
+
+
+        self.horizontalLayout_60.addWidget(self.frame_93)
+
+        self.frame_94 = QFrame(self.frame_91)
+        self.frame_94.setObjectName(u"frame_94")
+        self.frame_94.setFrameShape(QFrame.StyledPanel)
+        self.frame_94.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_41 = QVBoxLayout(self.frame_94)
+        self.verticalLayout_41.setObjectName(u"verticalLayout_41")
+        self.res_lbl = QLabel(self.frame_94)
+        self.res_lbl.setObjectName(u"res_lbl")
+        self.res_lbl.setStyleSheet(u"font: 10pt \"Comic Sans MS\";\n"
+"color: rgb(255, 255, 255);")
+
+        self.verticalLayout_41.addWidget(self.res_lbl)
+
+        self.res_input = QLineEdit(self.frame_94)
+        self.res_input.setObjectName(u"res_input")
+        self.res_input.setMaximumSize(QSize(115, 16777215))
+        self.res_input.setStyleSheet(u"font: 10pt \"Comic Sans MS\";\n"
+"color: rgb(255, 255, 255);")
+        self.res_input.setMaxLength(3)
+
+        self.verticalLayout_41.addWidget(self.res_input)
+
+
+        self.horizontalLayout_60.addWidget(self.frame_94, 0, Qt.AlignTop)
+
+
+        self.verticalLayout_38.addWidget(self.frame_91)
+
+        self.frame_92 = QFrame(self.frame_90)
+        self.frame_92.setObjectName(u"frame_92")
+        self.frame_92.setStyleSheet(u"font: 14pt \"Comic Sans MS\";\n"
+"color: rgb(255, 255, 255);")
+        self.frame_92.setFrameShape(QFrame.StyledPanel)
+        self.frame_92.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_61 = QHBoxLayout(self.frame_92)
+        self.horizontalLayout_61.setObjectName(u"horizontalLayout_61")
+        self.chance_lbl = QLabel(self.frame_92)
+        self.chance_lbl.setObjectName(u"chance_lbl")
+
+        self.horizontalLayout_61.addWidget(self.chance_lbl)
+
+        self.res_acc_chance_lbl = QLabel(self.frame_92)
+        self.res_acc_chance_lbl.setObjectName(u"res_acc_chance_lbl")
+        self.res_acc_chance_lbl.setAlignment(Qt.AlignCenter)
+
+        self.horizontalLayout_61.addWidget(self.res_acc_chance_lbl)
+
+
+        self.verticalLayout_38.addWidget(self.frame_92)
+
+
+        self.verticalLayout_36.addWidget(self.frame_90)
+
+
+        self.horizontalLayout_54.addWidget(self.frame_87)
+
+        self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
+
+        self.horizontalLayout_54.addItem(self.horizontalSpacer)
 
 
         self.verticalLayout_10.addWidget(self.frame_21)
+
+        self.frame_86 = QFrame(self.frame_20)
+        self.frame_86.setObjectName(u"frame_86")
+        self.frame_86.setMaximumSize(QSize(16777215, 80))
+        self.frame_86.setFrameShape(QFrame.StyledPanel)
+        self.frame_86.setFrameShadow(QFrame.Raised)
+
+        self.verticalLayout_10.addWidget(self.frame_86)
 
 
         self.verticalLayout_11.addWidget(self.frame_20)
@@ -2327,14 +2471,14 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.main_Stack.setCurrentIndex(0)
+        self.main_Stack.setCurrentIndex(4)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Raid Bot", None))
         self.level_Btn.setText(QCoreApplication.translate("MainWindow", u"Level Bot", None))
         self.dungeon_Btn.setText(QCoreApplication.translate("MainWindow", u"Dungeon Bot", None))
         self.auto_Btn.setText(QCoreApplication.translate("MainWindow", u"Stuff", None))
@@ -2431,7 +2575,13 @@ class Ui_MainWindow(object):
         self.label_11.setText(QCoreApplication.translate("MainWindow", u"Resize to 1280 x 720", None))
         self.resize_Btn.setText(QCoreApplication.translate("MainWindow", u"Resize", None))
         self.label_8.setText(QCoreApplication.translate("MainWindow", u"Calculator", None))
-        self.label_12.setText(QCoreApplication.translate("MainWindow", u"Coming Soon", None))
+        self.label_12.setText(QCoreApplication.translate("MainWindow", u"Accuracy vs. Resistance Calculator", None))
+        self.acc_lbl.setText(QCoreApplication.translate("MainWindow", u"Your Accuracy ", None))
+        self.acc_input.setPlaceholderText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.res_lbl.setText(QCoreApplication.translate("MainWindow", u"Target Resistance ", None))
+        self.res_input.setPlaceholderText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.chance_lbl.setText(QCoreApplication.translate("MainWindow", u" Chance to place a debuff:", None))
+        self.res_acc_chance_lbl.setText("")
         self.label.setText(QCoreApplication.translate("MainWindow", u"Info", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Version:", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"1.1", None))

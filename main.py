@@ -3,6 +3,7 @@ from PySide6.QtCore import *  # type: ignore
 from PySide6.QtGui import *  # type: ignore
 from PySide6.QtWidgets import *  # type: ignore
 from numpy import uint
+import math
 import threading
 import sys
 
@@ -12,7 +13,8 @@ from ui_Raid import Ui_MainWindow
 from Gui_Functions.other_functions import Other_Functions
 from Gui_Functions.level_functions import Level_Function
 from Gui_Functions.dungeon_functions import Minotaurus
-import Gui_Images.images_rc
+from Gui_Functions.calculator_functions import Calculator
+import images_rc
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -22,6 +24,7 @@ class MainWindow(QMainWindow):
         self.other = Other_Functions()
         self.level = Level_Function()
         self.mino = Minotaurus()
+        self.cal = Calculator()
        
         #PAGE CHANGE
         self.ui.level_Btn.clicked.connect(lambda: self.ui.main_Stack.setCurrentWidget(self.ui.level_Page))
@@ -44,13 +47,20 @@ class MainWindow(QMainWindow):
         #Dungeon page
         self.ui.start_min_Btn.clicked.connect(self.minotaurus)
         self.ui.stop_min_Btn.clicked.connect(lambda: self.mino.set_finish(True))
+
         #Other stuff page
         self.ui.start_autoclicker.clicked.connect(self.auto_clicker)
         self.ui.stop_autoclicker.clicked.connect(lambda: self.other.set_finish(True))
         self.ui.start_autoseller.clicked.connect(lambda: threading.Thread(target=self.other.autoseller,daemon=True).start())
         self.ui.resize_Btn.clicked.connect(lambda: Utility.resize_window())
 
+        #Calculater Page
+        self.ui.acc_input.setValidator(QIntValidator())
+        self.ui.res_input.setValidator(QIntValidator())
+        self.ui.acc_input.textChanged.connect(lambda: self.ui.res_acc_chance_lbl.setText(self.cal.acc_res_cal(self.ui.acc_input,self.ui.res_input)))
+        self.ui.res_input.textChanged.connect(lambda: self.ui.res_acc_chance_lbl.setText(self.cal.acc_res_cal(self.ui.acc_input,self.ui.res_input)))
         self.show()
+
 
     def level_func(self):
         if(not self.level.is_finish()):
