@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Raid Bot</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="Gui_Images/images.qrc">
+    <normaloff>:/icons/bot.ico</normaloff>:/icons/bot.ico</iconset>
+  </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 0, 0);</string>
   </property>

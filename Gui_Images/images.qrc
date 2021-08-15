@@ -10,6 +10,9 @@
     <file>une.png</file>
     <file>ver.png</file>
   </qresource>
+  <qresource prefix="icons">
+    <file>bot.ico</file>
+  </qresource>
   <qresource prefix="star">
     <file>star.png</file>
   </qresource>
