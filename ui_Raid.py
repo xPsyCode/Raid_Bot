@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'UI_RaidKhcGEe.ui'
+## Form generated from reading UI file 'UI_RaidFGNkwl.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.1.2
 ##
@@ -19,6 +19,9 @@ class Ui_MainWindow(object):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(739, 500)
+        icon = QIcon()
+        icon.addFile(u":/icons/bot.png", QSize(), QIcon.Normal, QIcon.Off)
+        MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet(u"background-color: rgb(0, 0, 0);")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")

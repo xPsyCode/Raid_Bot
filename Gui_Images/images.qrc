@@ -11,7 +11,7 @@
     <file>ver.png</file>
   </qresource>
   <qresource prefix="icons">
-    <file>bot.ico</file>
+    <file>bot.png</file>
   </qresource>
   <qresource prefix="star">
     <file>star.png</file>
