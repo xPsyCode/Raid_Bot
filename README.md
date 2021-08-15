@@ -7,7 +7,7 @@ A simple Raid: Shadow Legends Bot, which support you in some bored action like l
 Take the "Executable" directory -> put "Template_Images" directory into it -> start the exe and everything is done.
 
 ## How to use
-### Level
+### <ins>Level</ins>
 Simple level function with autosell
 
 * Select an rank you should level up to max level
@@ -15,7 +15,7 @@ Simple level function with autosell
 
 Notes: To save energy, the bot levels the champs up to one befor max level. E.g. For a two star champ, the bot will stop at level 19.
 
-### Dungeon
+### <ins>Dungeon</ins>
 Farming bot for Dragon, Ice Golem and Fireknight
 
 * Select artefacts you should need
@@ -29,8 +29,11 @@ Farming scroll in Minotaurus
 * Select refill button -> Choose how much refill will buy for new energy
 * Click start button -> Bot will farm up to 950 red scroll for a champ - If energy is empty -> Bot will try every 3 minutes to start a round
 
-### Other Stuff
+### <ins>Other Stuff</ins>
 Some helpful stuff like a simple autoclicker, auto seller and resize the window
 * Autoclicker can be starts -> Press Start button | can be stop -> Press Stop button
 * Auto seller: Click in Raid on the sell button -> take the artefacts you will sell on the bottom edge and press the start button
 * Resize button: Needful for resizing the window, because the window should be 1280 x 720, otherwise the bot won't work
+
+### <ins>Calculator</ins>
+Calculates the chance to apply a debuff dependent on your accuracy and enemy resistance. Also there is a table of clan boss stats. Maybe it's helpful to calculate your clan boss fight.
