@@ -16,7 +16,10 @@ class Other_Functions:
         while not self.finish:
             Utility.reconnect()
             pyautogui.click(self.win.get_screen_position((680,665)))
-            time.sleep(28)
+            time_count = 0
+            while time_count < 28 and not self.finish:
+                time.sleep(1)
+                time_count +=1
         label.setStyleSheet(style)
 
     def autoseller(self):
